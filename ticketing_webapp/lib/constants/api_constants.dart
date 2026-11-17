@@ -1,6 +1,6 @@
 class ApiConstants {
   // Il tuo IP locale con la porta di Spring Boot
-  static const String baseUrl = 'http://localhost:8080';
+  static const String baseUrl = 'https://ding-ticketing.uniss.it';
 
   // ==================== Login ====================
   static const String login =

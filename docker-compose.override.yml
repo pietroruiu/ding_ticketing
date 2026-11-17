@@ -1,0 +1,9 @@
+services:
+  mongodb:
+    ports: !override []
+  backend:
+    ports: !override
+      - "127.0.0.1:8080:8080"
+  frontend:
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
